@@ -1,0 +1,563 @@
+﻿.tooltip_rr .pa {
+    top: -14px;
+}
+
+.box-blue {
+    box-shadow: 0 2px 3px #ececec;
+    margin-bottom: 14px;
+}
+
+.mt03 {
+    margin-top: 3px;
+}
+
+.mt06 {
+    margin-top: 6px;
+}
+
+.box-blue .ups {
+    height: 70px;
+    background: #008fbf;
+}
+
+    .box-blue .ups p {
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+    }
+
+        .box-blue .ups p span {
+            font-size: 14px;
+            color: #fe8828;
+        }
+
+    .box-blue .ups .fl {
+        width: 50%;
+        height: 70px;
+    }
+
+        .box-blue .ups .fl.fls {
+            border-right: 1px solid #3a82aa;
+        }
+
+            .box-blue .ups .fl.fls p.mt06 {
+                margin-top: 15px;
+            }
+
+.box-blue .downs {
+    height: 50px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+    .box-blue .downs p {
+        text-align: center;
+        color: #666666;
+        font-size: 12px;
+        text-align: center;
+    }
+
+        .box-blue .downs p span {
+            font-size: 16px;
+            color: #fe8828;
+        }
+
+    .box-blue .downs .fl {
+        width: 50%;
+        border-left: 1px solid #dcdcdc;
+        height: 50px;
+    }
+
+        .box-blue .downs .fl.fls {
+            border-right: 1px solid #dcdcdc;
+        }
+
+.zuijin .col-sm-2 {
+    cursor: pointer;
+}
+
+/*报表控制台*/
+
+.statCon.row {
+    margin-right: 0;
+}
+
+    .statCon.row .col-sm-3 {
+        padding-right: 0;
+    }
+
+.statConPro li {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 10px 0;
+}
+
+.statTitle {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: baseline;
+    -webkit-align-items: baseline;
+}
+
+
+
+
+
+ol, ul {
+    margin-bottom: 0;
+}
+/*saas_css*/
+.new_point {
+    height: 72px;
+    border: 1px solid #cddfed;
+    margin: 0 7px;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 0 32px 0 24px;
+}
+
+    .new_point img {
+        height: 40px;
+        width: 40px;
+    }
+
+.chart_box {
+    margin-right: -15px;
+}
+
+    .chart_box li {
+        width: 25%;
+        padding: 0 15px 15px 0;
+    }
+
+
+        .chart_box li .bg-white {
+            padding: 23px 16px;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .chart_box li .bg-white h3 {
+                font-size: 18px;
+                color: var(--color-yellow)
+            }
+
+        
+
+        .chart_box li .bg-white span {
+            color: var(--color-333);
+            margin-top:8px;
+            display:inline-block;
+        }
+
+        .chart_box li .bg-white:after {
+            width: 50px;
+            height: 70px;
+            background: url(../images/icon/chart/shouru.jpg) no-repeat bottom right;
+            background-size:100%;
+            content: '';
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        .chart_box li:nth-child(n+5) .bg-white h3 {
+            color: var(--color-blue)
+        }
+        .chart_box li:nth-child(n+5) .bg-white:after {
+            background: url(../images/icon/chart/zongshu.jpg) no-repeat bottom right;
+            background-size: 100%;
+        }
+
+.console_ul{ 
+    margin-top:16px;
+    height:230px;
+    margin-bottom:0;
+
+}
+    .console_ul li{
+       margin-top:9px;
+    }
+    .console_ul li i.icon {
+        width: 16px;
+        height: 16px;
+        color: #fff;
+        text-align: center;
+        line-height: 16px;
+        background: var(--color-orange);
+        display: inline-block;
+        border-radius: 50%;
+        font-style: normal;
+    }
+        .console_ul li:nth-child(n+4) i.icon {
+            background: #d9d9d9;
+            color: #ababab;
+        }
+        .console_ul li i.icon-exclamation-sign {
+            color: #999;
+        }
+        .console_ul li .department {
+            margin-left: 15px;
+        }
+    .console_ul li h2{
+        margin-left:15px;
+    }
+
+
+
+    /** 首页报表*/
+.chart { 
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+}
+
+.chart_column {
+    width: 640px;
+    height: 350px;
+    margin: 20px auto;
+}
+.roundChartBox {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    color: #2f2f2f;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-40px;
+    margin-top:-80px;
+    border-radius:50%;
+    text-align:center;
+    font-size:14px;
+    padding-top:20px;
+}
+.roundChartBox p{
+    font-size:18px;
+}
+
+
+.video_box{
+    width:100%;
+    margin:0 auto;
+    box-shadow:0 0 3px #d5d5d5;
+    padding-bottom:8px; 
+}
+.video_box_img{
+    width:100%;
+    height:180px;
+}
+.video_box h2{ 
+    margin-top:10px;
+}
+.video_box hr {
+    margin: 10px;
+}
+.video_box .icon-play{
+    color:#fff;
+    left:50%; 
+    top:50%;
+    font-size:24px;
+    border-radius:50%;
+    border:2px solid #fff;
+    width:40px;
+    height:40px;
+    margin-left:-20px;
+    margin-top:-20px;
+}
+    .video_box .icon-play:before{
+        margin-left:9px;
+        margin-top:5px;
+    }
+
+
+    /**
+        saas二期
+    */
+.tab_box li {
+    width:50%;
+}
+    .tab_box li a {
+        height: 45px;
+        line-height: 45px;
+        display: block;
+        text-align: center;
+        background: #eeeeee;
+        color: #415178;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .tab_box li.active a {
+        background: #fff;
+        color: #31446f;
+    }
+
+.console_title {
+    font-size: 16px;
+    color: #415178;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+}
+.organ_num_ul li {
+    width: 13.5%;
+    border-radius: 2px;
+    text-align: center;
+    padding: 8px 0;
+    border: 1px solid;
+    cursor:pointer;
+}
+    .organ_num_ul li:nth-child(1) {
+        border-color: #b5e1fc
+    }
+        .organ_num_ul li:nth-child(1):hover {
+            background: #b5e1fc
+        }
+        .organ_num_ul li:nth-child(2) {
+            border-color: #ef5033;
+        }
+            .organ_num_ul li:nth-child(2):hover {
+                background: #ef5033;
+            }
+            .organ_num_ul li:nth-child(3) {
+                border-color: #b096f1;
+            }
+                .organ_num_ul li:nth-child(3):hover {
+                    background: #b096f1;
+                }
+                .organ_num_ul li:nth-child(4) {
+                    border-color: #1db991;
+                }
+                    .organ_num_ul li:nth-child(4):hover {
+                        background: #1db991;
+                    }
+                    .organ_num_ul li:nth-child(5) {
+                        border-color: #3b82d4;
+                    }
+                        .organ_num_ul li:nth-child(5):hover {
+                            background: #3b82d4;
+                        }
+                        .organ_num_ul li:nth-child(6) {
+                            border-color: #ee3c54;
+                        }
+                            .organ_num_ul li:nth-child(6):hover {
+                                background: #ee3c54;
+                            }
+                            .organ_num_ul li:nth-child(7) {
+                                border-color: #f99c00;
+                            }
+                                .organ_num_ul li:nth-child(7):hover {
+                                    background: #f99c00;
+                                }
+                                .organ_num_ul li b {
+                                    color: #fd602d;
+                                    font-size: 20px;
+                                }
+    .organ_num_ul li p {
+        color: #666;
+    }
+    .organ_num_ul li:hover b, .organ_num_ul li:hover p {
+        color: #fff;
+    }
+
+
+
+.org_add_ul li{
+    width:100px;
+    text-align:center;
+}
+    .org_add_ul li b {
+        font-size: 20px;
+        color: #5a79ba;
+    }
+.org_add_ul li p{
+    color:#666;
+}
+.org_add_ul span {
+    width: 1px;
+    height: 50px;
+    background: #dadada
+}
+.org_chart_ul li {
+    border: 1px solid #ececec;
+    border-radius:2px;
+    padding:12px 0; 
+    margin-right:8px;
+    margin-bottom:8px;
+    height:200px;
+    overflow:hidden;
+}
+    .org_chart_ul .col-sm-4:last-child li{
+        margin-right:0;
+    }
+    .chart_tuli {
+        margin: 0 auto;
+    }
+
+.chart_tuli p {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+    .chart_tuli p:last-child{
+        margin-right:0;
+    }
+    .chart_tuli p:before {
+        content: '';
+        background: #ff6633;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: -3px;
+        margin-right: 3px;
+    }
+.chart_tuli.two p:before {
+    background: #587ab9;
+}
+
+
+.chart_change_box {
+    background: #f1f1f1;
+    height:16px;
+    border-radius:2px;
+    width:100%;
+}
+.chart_change_box_line {
+    left: 0;
+    top: 0;
+    background: #5c7bbb;
+    height: 16px;
+    border-radius: 2px;
+}
+.chart_change_box_text {
+    background-image: url('../images/icon/bg_chart_change_text.png');
+    width:54px;
+    height:23px;
+    color: #5c7bbb;
+    text-align:center;
+    top:-30px;
+    left:10px;
+}
+.chart_change_box_label{
+    text-align:center;
+}
+.chart_change_box_label p{
+    font-size:14px;
+    font-weight:bold;
+}
+
+.circleChart_text{ color:var(--color-orange);}
+.console_right_box {
+    border-left: 1px solid #ededed;
+    box-shadow: -4px 0 3px #f9f9f9;
+}
+
+.console_search {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #d8d8d8;
+    padding:0 15px;
+}
+.console_search i{
+    font-size:16px;
+}
+.console_search input{
+    border:none;
+    height:26px;
+}
+
+    .org_user_ul li {
+        padding: 10px 0;
+        color: #6c6c6e;
+        border-bottom: 1px dashed #ededed;
+        line-height:20px;
+    }
+        .org_user_ul li:last-child{
+            border-bottom:none;
+        }
+        .org_user_ul a {
+            width: 40px;
+            height: 40px;
+            background: #f66816;
+            color: #fff;
+            border-radius: 8px;
+            text-align: center;
+            line-height: 16px;
+            padding-top: 4px;
+        }
+
+.org_login_ul li {
+    padding: 6px 0;
+    color: #6c6c6e;
+    border-bottom: 1px dashed #ededed;
+    line-height: 20px;
+}
+.org_login_ul li:last-child{
+    border-bottom:none;
+}
+
+.chartSizeOne { 
+    margin: 5px 0 0;
+    height:120px;
+}
+.chartSizeTwo{  
+    height:170px; 
+    margin:-30px 10px 0;
+}
+.chartSizeThree { 
+    margin: 0;
+    height:200px;
+    margin-top:4px;
+}
+.chartSizeOne {
+    right: 7%;
+}
+.chartSizeFour{
+    height:240px;
+    width:700px;
+}
+
+.org_chart_ul .col-sm-4 {
+    padding: 0;
+}
+
+.textRate{
+    position:absolute;
+    left:0;
+    right:0;
+    top:53%;
+}
+
+.circleChart_text{
+    line-height:0!important;
+    top:43%!important;
+    font-size:36px!important;
+}
+
+.chartSizeRound{
+    margin:0;
+    height:250px;
+}
+
+@media screen and (max-width: 1025px) {
+
+    .chartSizeFour {
+        height: 240px;
+        width: 500px;
+    }
+}
+
+.tab_box2 li a{
+    font-size:14px;
+}
+.console_li_box{
+    padding:20px 18px;
+}
+.console_li_box_border {
+    padding: 20px 18px;
+    border-top: 5px solid #f6f6f6;
+}

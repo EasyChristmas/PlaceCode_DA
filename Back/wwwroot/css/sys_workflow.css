@@ -1,0 +1,57 @@
+.flex{display:flex;}
+.flex1{flex:1;} 
+
+/*±à¼­±íµ¥*/
+.wf_from_title {
+    line-height: 30px;
+    font-size: 16px;
+    border-bottom: 1px solid #1ab394;
+    color: #1ab394;
+}
+.wf_form_ul{
+    flex-flow:row wrap;
+    justify-content:space-between;
+}
+.wf_form_ul li {
+    flex-basis: 48%; 
+    border: 1px dashed #d5d5d5;
+    margin-top:10px;
+}
+    .wf_form_ul li .span {
+        padding: 10px;
+        display:block;
+    }
+    .iphone_title {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+.iphone_bg {
+    background: url(../images/workflow/iphone.png) no-repeat;
+    background-size: 100% auto;
+    width: 340px;
+    height: 684px;
+    margin: 0 auto;
+    padding: 79px 0 0 22px;
+}
+.temp {
+    background: #fff;
+    border: 1px solid #c7c7c9;
+    padding: 4px;
+}
+.iphone_con {
+    width: 296px;
+    height: 526px;
+    overflow: auto;
+    padding: 15px 0;
+    background: #f0eff4;
+}
+    .iphone_con .form-group {
+        padding: 10px 0;
+        border: 1px solid #c7c7c9; background:#fff;
+    } 
+        .iphone_con .form-group .form-control{ border:none;}
+    .iphone_con .checkbox + .checkbox{ margin-top:10px;}
+.wf_from_con h2{ font-size:12px; margin-top:10px;}
+.wf_from_con .form-control{ margin-top:10px;}
+ 

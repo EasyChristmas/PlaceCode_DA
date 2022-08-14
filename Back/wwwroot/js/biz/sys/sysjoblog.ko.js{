@@ -1,0 +1,178 @@
+﻿var viewData = {};
+$(function () { 
+    //初始化Ko
+    var initKo = function () {
+        //系统工单主键ID
+        viewData.sysJobId = sysJobId;
+        //状态
+        viewData.status = null;
+        //状态名称
+        viewData.statusName = null;
+        //标题
+        viewData.title = null;
+        //创建时间
+        viewData.createTime = null;
+        //级别名称
+        viewData.levelName = null;
+        //模块名称isPower
+        viewData.moduleName = null;
+        //是否有权利审核
+        viewData.isPower = null;
+        //是否有权利审核
+        viewData.isAskQuestion = null;
+        //部门名称
+        viewData.departmentName = null;
+        //当前登录人头像
+        viewData.currentAdminPhoto = null;
+        //头像
+        //viewData.photo = null;
+        //系统工单记录
+        viewData.dataSysJobLogList = [];
+        //显示审核工单信息
+        viewData.showRejectSysJob = function () {
+            $.openDialog({
+                title: "驳回工单",
+                jqObj: $("#modalReject"),
+                width: "600"
+            });
+        };
+        //驳回工单信息
+        viewData.saveRejectSysJob = function () {
+            if ($("#rejectForm").validate()) {
+                $("#rejectForm").submitForm({
+                    type: "put",
+                    url: "sys/sysJob",
+                    data: { id: viewData.sysJobId(), status: -1 },
+                    success: function (result) {
+                        $.success("驳回成功", 2000);
+                        viewData.status(-1);
+                        $.closeDialog($("#modalReject"));
+                    },
+                    error: function (resultErr) {
+                        $.error(resultErr.responseText);
+                    }
+                });
+            }
+        };
+        //审核通过工单信息
+        viewData.auditSysJob = function () {
+            $.confirm("您确定要审核通过吗？", function () {
+                $.put({
+                    url: "sys/sysJob/" + viewData.sysJobId(),
+                    data: { id: viewData.sysJobId(), status: 20 },
+                    success: function (result) {
+                        $.success("审核成功", 2000);
+                        getSysJob();;
+                    },
+                    error: function (resultErr) {
+                        $.error(resultErr.responseText);
+                    }
+                });
+            });
+        };
+        viewData.summernote=function()
+        //提交问题
+        viewData.submitQuestion = function () { 
+            var content = $(".summer").summernote("code");
+            alert(content);  
+            return;
+            if ($.trim(content) === "" || content == null) {
+                $.tips("内容不能为空！", $("#submitLogQuestion"));
+                return;
+            }
+            $.put({
+                url: "sys/sysJob/" + viewData.sysJobId(),
+                data: { id: viewData.sysJobId(), content: content, status: 25 },
+                success: function (result) {
+                    $.success("提交成功", 2000);
+                    getSysJob();
+                },
+                error: function (resultErr) {
+                    $.error(resultErr.responseText);
+                }
+            });
+        };
+        //关闭问题
+        viewData.closeQuestion = function() {
+            $.confirm("您确定要关闭问题吗？", function () {
+                $.put({
+                    url: "sys/sysJob/" + viewData.sysJobId(),
+                    data: { id: viewData.sysJobId(), status: 30 },
+                    success: function (result) {
+                        $.success("关闭成功", 2000);
+                        viewData.status(30);
+                    },
+                    error: function (resultErr) {
+                        $.error(resultErr.responseText);
+                    }
+                });
+            });
+        };
+
+        //绑定Ko对象
+        viewData = ko.mapping.fromJS(viewData);
+        //ko绑定
+        ko.applyBindings(viewData);
+        
+    }();
+    getSysJob();
+    summernote();
+});
+
+//获取系统数据
+function getSysJob() {
+    //加载产品经理
+    $.get({
+        async: true,
+        url: "sys/sysJob/" + viewData.sysJobId(),
+        success: function(result) {
+            //console.log(result);
+            //状态
+            viewData.status(result.status);
+            //状态名称
+            viewData.statusName(result.statusName);
+            //标题
+            viewData.title(result.title);
+            //创建时间
+            viewData.createTime(result.createTime);
+            //级别名称
+            viewData.levelName(result.levelName);
+            //模块名称
+            viewData.moduleName(result.moduleName);
+            //是否有权利审核
+            viewData.isPower(result.isPower);
+            //是否有权利审核
+            viewData.isAskQuestion(result.isAskQuestion);
+            //头像
+            //viewData.photo(result.photo);
+            //部门名称
+            viewData.departmentName(result.departmentName);
+            //当前登录人头像
+            viewData.currentAdminPhoto(result.currentAdminPhoto);
+            //系统工单记录
+            viewData.dataSysJobLogList.removeAll();
+            //映射记录列表
+            ko.mapping.fromJS(result.sysJobLogList, {}, viewData.dataSysJobLogList);
+
+        },
+        error: function(resultErr) {
+            $.errorMsg(resultErr.responseText);
+        }
+    });
+};
+function summernote() {
+    $('#summernote1').summernote({
+        lang: 'zh-CN',//中文配置 
+        height: '400', // set editor height 
+        minHeight: null, // set minimum height of editor 
+        maxHeight: null, // set maximum height of editor 
+        focus: true,
+        airPopover: [
+            ['color', ['color']],
+            ['font', ['bold', 'underline', 'clear']],
+            ['para', ['ul', 'paragraph']],
+            ['table', ['table']],
+            ['insert', ['link', 'picture']]
+        ]
+    });
+}

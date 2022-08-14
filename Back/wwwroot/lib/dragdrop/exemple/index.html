@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Drag-drop</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+  <h1>Drag-drop jquery plugin</h1>
+</header>
+<section>
+  <h2>Simple</h2>
+  <div class="container">
+    <div class="block block1"></div>
+  </div>
+  <code>
+    $('.block1')<br>
+    &nbsp;&nbsp;.dragdrop()<br>
+    &nbsp;&nbsp;.on('dragend', function (e, data) {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;$(this).css({left: data.position.x, top: data.position.y})<br>
+    &nbsp;&nbsp;});
+  </code>
+</section>
+<section style="position:relative;">
+  <h2>Make clone</h2>
+  <div class="container">
+    <div class="block block2"></div>
+  </div>
+  <code>
+    $('.block2')<br>
+    &nbsp;&nbsp;.dragdrop({<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;makeClone: true<br>
+    &nbsp;&nbsp;})<br>
+    &nbsp;&nbsp;.on('dragend', function (e, data) {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;$(this).css({left: data.sourcePosition.x, top: data.sourcePosition.y})<br>
+    &nbsp;&nbsp;});
+  </code>
+</section>
+<section style="position:relative;">
+  <h2>Wait start</h2>
+  <div class="container">
+    <span  style="position: relative; background-color: #000000; display: inline-block" class="block3">
+      <img src="img/img.jpg" />
+    </span>
+  </div>
+  <code>
+    $('.block2')<br>
+    &nbsp;&nbsp;.dragdrop({<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;waitStart: 500,<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;dragClass: 'drag'<br>
+    &nbsp;&nbsp;})<br>
+    &nbsp;&nbsp;.on('dragend', function (e, data) {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;$(this).css({left: data.sourcePosition.x, top: data.sourcePosition.y})<br>
+    &nbsp;&nbsp;});
+  </code>
+</section>
+<section style="position:relative;">
+  <h2>Events</h2>
+  <div class="container">
+    <div class="block4" style="position: relative">
+      <img src="img/img.jpg" />
+      <div style="position: absolute; left: 0; top:0;"></div>
+    </div>
+  </div>
+  <code>
+    $('.block2')<br>
+    &nbsp;&nbsp;.dragdrop({<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;waitStart: 500,<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;dragClass: 'drag'<br>
+    &nbsp;&nbsp;})<br>
+    &nbsp;&nbsp;.on('dragend', function (e, data) {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;$(this).css({left: data.sourcePosition.x, top: data.sourcePosition.y})<br>
+    &nbsp;&nbsp;});
+  </code>
+</section>
+
+<script src="js/jquery.min.js"></script>
+<script src="../dragdrop.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

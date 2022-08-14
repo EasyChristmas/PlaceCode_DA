@@ -1,0 +1,40 @@
+﻿.nav-content#tabOcrIdCard .form-control{ border:none;}
+
+/*报单详情页，银行卡和身份证切换效果*/
+.lxfscroll {
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+overflow: hidden;
+position: relative;
+height: 300px;
+border: 1px dashed #CCC;
+}
+.button {
+margin-right: auto;
+margin-left: auto;
+width: 400px;
+text-align: center;
+padding-top: 10px;
+}
+.i {
+color: #F00;
+font-weight: bold;
+}
+.button input {
+border:none; height:30px; line-height:30px; padding:0 20px; color:#fff; background-color:#0c987b;
+}
+.lxfscroll ul li {
+height: 300px;
+width: 500px;
+text-align: center; 
+position: absolute;
+font-size: 40px;
+font-weight: bold;
+}
+.lxfscroll ul li img {
+    height: 300px;
+    width: 500px;
+}
+#othercont .nav-content{ border-bottom:none; margin:0 20px;}

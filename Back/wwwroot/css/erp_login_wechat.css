@@ -1,0 +1,31 @@
+﻿/**
+    这个文件传到cdn上
+    https://oss.console.aliyun.com/bucket/oss-cn-hangzhou/1caifu-res/object?path=public%2FContent%2FCss%2F&dataSource=
+    1caifu-res/public/content/css
+*/
+.impowerBox {
+    width: 260px;
+}
+    .impowerBox .icon38_msg.succ, .impowerBox .icon38_msg.warn {
+        display: none;
+    }
+    .impowerBox .title {
+        color: #0061c8;
+        margin-top: 20px;
+    }
+    .impowerBox .qrcode {
+        width: 120px;
+        border: 1px solid #f3f8fc;
+        margin-top:30px;
+    }
+    .impowerBox .info {
+        width: 260px;
+    }
+
+.status_icon {
+    display: none
+}
+
+.impowerBox .status {
+    text-align: center;
+}

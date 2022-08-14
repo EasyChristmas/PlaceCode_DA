@@ -1,0 +1,140 @@
+﻿/*loading 7*/
+.no_data{ position:absolute;  width:100%; bottom:40px; text-align:center;}
+.div-table-content .load7 { position: absolute; width: 100%; bottom: 30px; left: 0; }
+/*局部加载*/
+.load-container.load7{position: absolute; width: 100%; left: 0; z-index:1;}
+.load7 .loader:before,
+.load7 .loader:after,
+.load7 .loader {
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+.load7 .loader {
+  font-size: 12px;
+  margin: 0 auto 40px;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.load7 .loader:before {
+  left: -2.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.load7 .loader:after {
+  left: 2.5em;
+}
+.load7 .loader:before,
+.load7 .loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em #d0d0d0;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0 #d0d0d0;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em #d0d0d0;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0 #d0d0d0;
+  }
+}
+
+/*--------------------首次加载整体loading--------------------*/
+.loading-bg{ position:absolute;left:0;top:0; right:0; bottom:0;z-index:10000; background: linear-gradient(60deg,#0485FA,#421CCC); 
+  text-align: center;}
+.loading-t{width:123px; height:123px; position:absolute; left:50%; top:50%; margin-left:-61px; margin-top:-61px;  text-align:center; line-height:150px; }
+.lo-Logo{z-index:10002; background:url(../images/icon/loading-bg01.png) no-repeat center center; animation: rotate 1s linear infinite; background-size: 100%;}
+.lo-icon {
+    z-index: 10003;
+    background: url(https://1caifu-file-public.oss-cn-hangzhou.aliyuncs.com/image/logo/logo_white.png) no-repeat center center;
+    background-size: auto 60px;
+    /* background-position: 17px 12px; */
+}
+.loading-bg.opa08{ opacity:0.8;filter:alpha(opacity=80);z-index:10001;}
+.loading-bg p{ position:absolute; width:100%; color:#fff; text-align:center; bottom:30%;}
+
+/* newSkin */
+.loading-bg .logo_loading{
+  width: 520px;
+  height: 520px;
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  margin-left: -260px;
+}
+.loading-bg .title{
+  font-size: 60px;
+  font-family: PingFangSC-Semibold, sans-serif;
+  color: #fff;
+  bottom: 20%;
+}
+.loading-bg .note{
+  font-size: 36px;
+  font-family: PingFangSC-Regular, sans-serif;
+  color: #fff;
+}
+.loading-bg .icon_enter{
+  width: 59px;
+  height: 59px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  margin-left: -30px;
+}
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+@-webkit-keyframes rotate {
+    0% {-webkit-transform: rotate(0deg);}
+    25%{-webkit-transform: rotate(90deg);}
+    50%{-webkit-transform: rotate(180deg);}
+    75%{-webkit-transform: rotate(270deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes rotate {
+    0% {-moz-transform: rotate(0deg);}
+    25%{-moz-transform: rotate(90deg);}
+    50%{-moz-transform: rotate(180deg);}
+    75%{-moz-transform: rotate(270deg);}
+    100% {-moz-transform: rotate(360deg);}
+}
+@-ms-keyframes rotate {
+    0% {-ms-transform: rotate(0deg);}
+    25%{-ms-transform: rotate(90deg);}
+    50%{-ms-transform: rotate(180deg);}
+    75%{-ms-transform: rotate(270deg);}
+    100% {-ms-transform: rotate(360deg);}
+}
+@-o-keyframes rotate {
+    0% {-o-transform: rotate(0deg);}
+    25%{-o-transform: rotate(90deg);}
+    50%{-o-transform: rotate(180deg);}
+    75%{-o-transform: rotate(270deg);}
+    100% {-o-transform: rotate(360deg);}
+}
+

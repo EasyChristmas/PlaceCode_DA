@@ -1,0 +1,107 @@
+﻿[
+  {
+    "id": 11,
+    "text": "壹财富",
+    "iconCls": "icon-save",
+    "hasChild": true,
+    "parentId": 0,
+    "staffCount": 0,
+    "children": [
+      {
+        "id": 33,
+        "text": "产品部",
+        "hasChild": false,
+        "parentId": 11,
+        "checked": true,
+        "children": null,
+        "staffCount": 0
+      },
+      {
+        "id": 13,
+        "text": "销售服务中心",
+        "state": "open",
+        "hasChild": true,
+        "parentId": 11,
+        "attributes": {
+          "url": "/demo/book/abc",
+          "price": 100
+        },
+        "staffCount": 0,
+        "children": [
+          {
+            "id": 24,
+            "text": "营业一部",
+            "hasChild": false,
+            "parentId": 13,
+            "checked": true,
+            "children": null,
+            "staffCount": 0
+          },
+          {
+            "id": 25,
+            "text": "营业二部",
+            "parentId": 13,
+            "hasChild": false,
+            "state": "closed",
+            "children": null,
+            "staffCount": 0
+          },
+          {
+            "id": 27,
+            "text": "营业三部",
+            "parentId": 13,
+            "hasChild": false,
+            "state": "closed",
+            "children": null,
+            "staffCount": 0
+          },
+          {
+            "id": 30,
+            "text": "营业四部",
+            "parentId": 13,
+            "hasChild": false,
+            "state": "closed",
+            "children": null,
+            "staffCount": 0
+          },
+          {
+            "id": 31,
+            "text": "营业五部",
+            "parentId": 13,
+            "hasChild": false,
+            "state": "closed",
+            "children": null,
+            "staffCount": 0
+          },
+          {
+            "id": 32,
+            "text": "营业六部",
+            "parentId": 13,
+            "hasChild": false,
+            "state": "closed",
+            "children": null,
+            "staffCount": 0
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "技术部",
+        "hasChild": false,
+        "parentId": 11,
+        "checked": true,
+        "children": null,
+        "staffCount": 0
+      },
+      {
+        "id": 14,
+        "text": "市场部",
+        "hasChild": false,
+        "parentId": 11,
+        "checked": true,
+        "children": null,
+        "staffCount": 0
+      }
+    ]
+  }
+]

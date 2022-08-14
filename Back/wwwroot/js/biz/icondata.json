@@ -1,0 +1,53 @@
+﻿[
+  { "keyName": "icon-glass" },
+  { "keyName": "icon-music" },
+  { "keyName": "icon-envelope" },
+  { "keyName": "icon-heart" },
+  { "keyName": "icon-star" },
+  { "keyName": "icon-user" },
+  { "keyName": "icon-film" },
+
+  { "keyName": "icon-cog" },
+  { "keyName": "icon-home" },
+  { "keyName": "icon-file" },
+  { "keyName": "icon-time" },
+  { "keyName": "icon-road" },
+  { "keyName": "icon-inbox" },
+
+  { "keyName": "icon-list-alt" },
+  { "keyName": "icon-lock" },
+  { "keyName": "icon-flag" },
+  { "keyName": "icon-tags" },
+  { "keyName": "icon-book" },
+  { "keyName": "icon-bookmark" },
+  { "keyName": "icon-print" },
+
+  { "keyName": "icon-camera" },
+  { "keyName": "icon-facetime-video" },
+
+  { "keyName": "icon-pencil" },
+  { "keyName": "icon-gift" },
+  { "keyName": "icon-leaf" },
+  { "keyName": "icon-fire" },
+
+  { "keyName": "icon-plane" },
+  { "keyName": "icon-key" },
+  { "keyName": "icon-cogs" },
+  { "keyName": "icon-comments" },
+  { "keyName": "icon-cloud" },
+  { "keyName": "icon-shopping-cart" },
+  { "keyName": "icon-globe" },
+  { "keyName": "icon-briefcase" },
+  { "keyName": "icon-desktop" },
+  { "keyName": "icon-sitemap" },
+  { "keyName": "icon-group" },
+  { "keyName": "icon-barcode" },
+  { "keyName": "icon-phone" },
+  { "keyName": "icon-phone-sign" },
+  { "keyName": "icon-book" },
+  { "keyName": "icon-folder-open" },
+  { "keyName": "icon-user" },
+  { "keyName": "icon-print" },
+
+  { "keyName": "icon-question-sign" }
+]

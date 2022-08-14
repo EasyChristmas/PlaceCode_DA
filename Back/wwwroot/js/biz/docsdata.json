@@ -1,0 +1,318 @@
+﻿[
+  {
+    "name": "上游管理",
+    "id": "1",
+    "pid": "0"
+  },
+  {
+    "name": "发行方管理",
+    "id": "1",
+    "pid": "1",
+    "html": "/docs/up/issuer.md"
+  },
+  {
+    "name": "供应商管理",
+    "id": "1",
+    "pid": "1",
+    "html": "/docs/up/supplier.md"
+  },
+
+
+  {
+    "name": "产品管理",
+    "id": "2",
+    "pid": "0"
+  },
+  {
+    "name": "产品列表",
+    "id": "1",
+    "pid": "2",
+    "html": "/docs/product/index.md"
+  },
+  {
+    "name": "产品详情",
+    "id": "1",
+    "pid": "2",
+    "html": "/docs/product/detail.md"
+  },
+  {
+    "name": "标签管理",
+    "id": "1",
+    "pid": "2",
+    "html": "/docs/product/tag.md"
+  },
+
+
+  {
+    "name": "九天管理",
+    "id": "3",
+    "pid": "0"
+  },
+  {
+    "name": "机构管理",
+    "id": "1",
+    "pid": "3",
+    "html": "/docs/jt/org.md"
+  },
+  {
+    "name": "产品管理",
+    "id": "1",
+    "pid": "3",
+    "html": "/docs/jt/appoint.md"
+  },
+  {
+    "name": "认购记录",
+    "id": "1",
+    "pid": "3",
+    "html": "/docs/jt/order.md"
+  },
+
+
+
+  {
+    "name": "客服管理",
+    "id": "4",
+    "pid": "0"
+  },
+  {
+    "name": "来访记录",
+    "id": "1",
+    "pid": "4",
+    "html": "/docs/cs/tracking.md"
+  },
+
+
+
+  {
+    "name": "会员管理",
+    "id": "5",
+    "pid": "0"
+  },
+  {
+    "name": "会员列表",
+    "id": "1",
+    "pid": "5",
+    "html": "/docs/user/index.md"
+  },
+  {
+    "name": "会员详情",
+    "id": "1",
+    "pid": "5",
+    "html": "/docs/user/edit.md"
+  },
+  {
+    "name": "跟进记录",
+    "id": "1",
+    "pid": "5",
+    "html": "/docs/user/tracking.md"
+  },
+  {
+    "name": "会员下发",
+    "id": "1",
+    "pid": "5",
+    "html": "/docs/user/allotuser.md"
+  },
+  {
+    "name": "会员申请",
+    "id": "1",
+    "pid": "5",
+    "html": "/docs/user/userapply.md"
+  },
+  {
+    "name": "交易会员",
+    "id": "1",
+    "pid": "5",
+    "html": "/docs/user/userunsold.md"
+  },
+  {
+    "name": "成交会员",
+    "id": "1",
+    "pid": "5",
+    "html": "/docs/user/userok.md"
+  },
+  {
+    "name": "会员公有池",
+    "id": "1",
+    "pid": "5",
+    "html": "/docs/user/userpool.md"
+  },
+
+
+
+  {
+    "name": "站点管理",
+    "id": "6",
+    "pid": "0"
+  },
+  {
+    "name": "站点管理",
+    "id": "1",
+    "pid": "6",
+    "html": "/docs/site/config.md"
+  },
+  {
+    "name": "视频管理",
+    "id": "1",
+    "pid": "6",
+    "html": "/docs/site/video.md"
+  },
+  {
+    "name": "广告管理",
+    "id": "1",
+    "pid": "6",
+    "html": "/docs/site/ad.md"
+  },
+  {
+    "name": "新闻管理",
+    "id": "1",
+    "pid": "6",
+    "html": "/docs/site/news.md"
+  },
+  {
+    "name": "消息模板",
+    "id": "1",
+    "pid": "6",
+    "html": "/docs/site/templete.md"
+  },
+
+
+
+  {
+    "name": "交易管理",
+    "id": "7",
+    "pid": "0"
+  },
+  {
+    "name": "合同范围",
+    "id": "1",
+    "pid": "7",
+    "html": "/docs/trade/contractrange.md"
+  },
+  {
+    "name": "合同管理",
+    "id": "1",
+    "pid": "7",
+    "html": "/docs/trade/contract.md"
+  },
+  {
+    "name": "确认书管理",
+    "id": "1",
+    "pid": "7",
+    "html": "/docs/trade/contract.md"
+  },
+
+
+  {
+    "name": "办公管理",
+    "id": "8",
+    "pid": "0"
+  },
+  {
+    "name": "绩效管理",
+    "id": "1",
+    "pid": "8",
+    "html": "/docs/oa/performance.md"
+  },
+  {
+    "name": "公司架构",
+    "id": "1",
+    "pid": "8",
+    "html": "/docs/oa/department.md"
+  },
+  {
+    "name": "员工管理",
+    "id": "1",
+    "pid": "8",
+    "html": "/docs/oa/admin.md"
+  },
+
+
+
+
+  {
+    "name": "帮助管理",
+    "id": "9",
+    "pid": "0"
+  },
+  {
+    "name": "在线产品统计",
+    "id": "1",
+    "pid": "9",
+    "html": "/docs/helper/productsalereport.md"
+  },
+  {
+    "name": "数据下载",
+    "id": "1",
+    "pid": "9",
+    "html": "/docs/helper/sqlquery.md"
+  },
+  {
+    "name": "新项目查询",
+    "id": "1",
+    "pid": "9",
+    "html": "/docs/helper/newproductstat.md"
+  },
+
+
+
+  {
+    "name": "积分商城",
+    "id": "10",
+    "pid": "0"
+  },
+  {
+    "name": "商品管理",
+    "id": "1",
+    "pid": "10",
+    "html": "/docs/mall/goods.md"
+  },
+  {
+    "name": "商城订单",
+    "id": "1",
+    "pid": "10",
+    "html": "/docs/mall/order.md"
+  },
+
+
+  {
+    "name": "系统管理",
+    "id": "11",
+    "pid": "0"
+  },
+  {
+    "name": "权限管理",
+    "id": "1",
+    "pid": "11",
+    "html": "/docs/sys/index.md"
+  },
+  {
+    "name": "意见反馈",
+    "id": "1",
+    "pid": "11",
+    "html": "/docs/sys/feedbacklist.md"
+  },
+  {
+    "name": "我的工单",
+    "id": "1",
+    "pid": "11",
+    "html": "/docs/sys/sysjob.md"
+  },
+  {
+    "name": "数据字典",
+    "id": "1",
+    "pid": "11",
+    "html": "/docs/sys/datadic.md"
+  },
+  {
+    "name": "版本更新",
+    "id": "1",
+    "pid": "11",
+    "html": "/docs/sys/appupdate.md"
+  },
+  {
+    "name": "我的工具",
+    "id": "1",
+    "pid": "11",
+    "html": "/docs/sys/tools.md"
+  }
+]

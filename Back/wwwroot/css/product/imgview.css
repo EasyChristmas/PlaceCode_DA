@@ -1,0 +1,121 @@
+.fbold{
+    font-weight: bold;
+}
+.mt10{
+    margin-top:10px;
+}
+.mt14{
+    margin-top: 14px;
+}
+.ml04{
+    margin-left: 4px;
+}
+.proImgBox{
+    width: 750px;
+    margin: 0 auto;
+}
+.proImgLogo{
+    width: 148px;
+    height: 50px;
+    margin:38px 0 0 22px;
+}
+.table-bordered>thead>tr>th {
+    background: #4A4A4A;
+    color: #fff!important;
+}
+.table-bordered{
+    border:none;
+}
+    .table-bordered > tbody > tr > td:first-child, .table-bordered > thead > tr > th:first-child {
+        border-left: 1px solid #e1e6eb;
+    }
+.table-bordered>tbody>tr>td, .table-bordered>thead>tr>th{
+    border-right:1px solid #e1e6eb;
+}
+.table>thead>tr>th{
+    font-size:14px;
+}
+.table>tbody>tr>td{
+    background: none;
+    padding:10px;
+    font-size: 13px;
+    line-height: 22px;
+}
+.table>tbody>tr:hover{
+    background: none;
+}
+.proImgNote{
+    height: 30px;
+    line-height: 30px;
+    background: #B0B0B0;
+    color: #2E2D2D;
+    font-size: 12px;
+    padding:0 10px;
+}
+.proImgFoot{
+    padding:28px 24px;
+}
+.footTitle{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 32px;
+    color: #444;
+}
+.qrcode_box{
+    width: 120px;
+    height: 120px;
+    padding: 12px;
+    /* box-shadow: 0 0 3px #d5d5d5; */
+    margin: 0 auto 10px;
+    box-sizing: content-box;
+    border:1px solid #d5d5d5;
+} 
+.fontErWeiMa {
+    font-size: 16px;
+    color: #98949A;
+    line-height: 26px;
+}
+.icon_box{
+    width: 22px;
+    height: 22px;
+    background: #948F96;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+}
+.proImgTel{
+    font-size: 22px;
+    font-weight: bold;
+    color: #e7591b;
+}
+.proImgText{
+    font-size: 16px;
+    color: #666;
+}
+.border{
+    height: 1px;
+    margin: 26px 0 14px;
+    background: #98949A;
+}
+.watermark_box{
+    height: 100%!important;
+    bottom: 0!important;
+}
+.mask_div{
+    color:#f5f5f5!important;
+    opacity:1!important;
+}
+#tbody-erp{
+    position: relative;
+    z-index: 1;
+    background: none;
+}
+.border7{
+    height: 7px;;
+}
+.riqiBox{
+    min-width:30px; height:30px; background:#fff; color:#D7431B; padding:0 2px; display:inline-block;line-height:30px; text-align:center;
+    margin-right: 4px;
+}
+ 

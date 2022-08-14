@@ -1,0 +1,17 @@
+{
+  "name": "dragdrop",
+  "version": "0.6.0",
+  "homepage": "https://github.com/KostovVN/dragdrop",
+  "authors": [
+    "Viktor Kostrov <kostrovvn@gmail.com>"
+  ],
+  "main": "dragdrop.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

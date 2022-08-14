@@ -1,0 +1,23 @@
+﻿.boxStar {
+    color: var(--color-orange);
+    width: 80px;
+    height: 14px;
+}
+
+    .boxStar .pa {
+        background: url(../images/icon/icon-star.png) no-repeat left center;
+        background-size: 80px 14px;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .boxStar img {
+        width: 80px;
+        height: 14px;
+        display: inherit;
+    }
+
+
+

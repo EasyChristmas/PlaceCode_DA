@@ -1,0 +1,102 @@
+﻿.tab {
+    display: inline-block;
+    width: 5px;
+    height: 17px;
+    background-color: #FF6633;
+}
+.line-ty{
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    background-color: #FF6633;
+    opacity: 0.5;
+    width: 100%;
+    height: 1px;
+}
+a:link {
+    text-decoration: none;
+}
+.biaoqian-ty{
+    display: inline-block;
+    background: url(/Images/biaoqian.png) no-repeat center center;
+    background-size: 83px 26px;
+    width: 83px;
+    height: 26px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 24px;
+}
+.product-list-ty{
+    position: relative;
+    /*        background: url(/h5/Images/capital_allocation/productlist.png) no-repeat center center;
+        background-size: 100% 100%;
+        background-position: 100% 100%;
+        height: 650px;
+        width: 100%;*/
+    /*        padding-bottom: 100%;*/
+}
+.table-ty {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 220px;
+    width: 100%;
+}
+
+.table-ty tr th {
+    border: 1px solid black;
+    font-size: 17px;
+    color: #333333;
+}
+
+.table-ty tr td {
+    border: 1px solid black;
+    font-size: 15px;
+    color: #333333;
+}
+.color-red{
+    color: red;
+}
+/*#secound{
+        position: relative;
+       
+        background: url(/h5/Images/capital_allocation/backgroundImage.png) no-repeat center center;
+        background-size: 100% 100%;
+        background-position: 100% 100%;
+        height: 2000px;
+        width: 100%;
+    }*/
+.plan01{
+    margin-top: 28px;
+    text-align: center;
+}
+.plan01 > .plan-zhuzhi{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333333;
+    text-align: left;
+    margin-left: 12px;
+}
+.plan01 > .plan-content{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.plan-vertical{
+    float: right;
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    background-color: #888686;
+}
+.plan-remark{
+    margin-top: 15px;
+    margin-left: 14px;
+    font-size: 12px;
+    color: #333333;
+    text-align: left
+}
+.zijin-peibi{
+    height: 50px;
+}

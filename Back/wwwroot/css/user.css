@@ -1,0 +1,241 @@
+﻿#tbody-erp {
+    height: 100%;
+}
+
+#tbody-erp td {
+    padding: 0;
+}
+
+#tbody-erp td .menu {
+    height: 100%;
+    overflow: auto;
+    border-right: 1px solid #e1e6eb;
+}
+
+/*new tree*/
+.tree {
+    padding-left: 9px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    height: 100%;
+}
+
+.tree:before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: -20px;
+    bottom: 16px;
+    left: 0;
+    border: 1px dotted #67b2dd;
+    border-width: 0 0 0 1px;
+    z-index: 1;
+}
+
+.tree .tree-folder {
+    width: auto;
+    min-height: 20px;
+    cursor: pointer;
+}
+
+.tree .tree-folder .tree-folder-header {
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+}
+
+.tree .tree-folder .tree-folder-header:hover {
+    background-color: #f0f7fc;
+}
+
+.tree .tree-folder .tree-folder-header .tree-folder-name, .tree .tree-item .tree-item-name {
+    display: inline;
+    z-index: 2;
+}
+
+.tree .tree-folder .tree-folder-header .tree-folder-name {
+    margin-left: 2px;
+}
+
+.tree .tree-folder:last-child:after {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    bottom: 0;
+    left: -15px;
+    border-left: 1px solid #FFF;
+}
+
+.tree .tree-folder .tree-folder-content {
+    margin-left: 23px;
+    position: relative;
+}
+
+.tree .tree-folder .tree-folder-content:before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -6px;
+    bottom: 8px;
+    left: -14px;
+    border: 1px dotted #67b2dd;
+    border-width: 0 0 0 1px;
+}
+
+.tree .tree-item {
+    position: relative;
+    /*height: 20px;
+        line-height: 20px;*/
+    cursor: pointer;
+}
+
+/*.tree .tree-item:hover {
+            background-color: #f0f7fc;
+        }*/
+
+.tree .tree-item .tree-item-name {
+    margin-left: 3px;
+}
+
+.tree .tree-folder, .tree .tree-item {
+    position: relative;
+}
+
+.tree .tree-folder:before, .tree .tree-item:before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: -13px;
+    width: 18px;
+    height: 0;
+    border-top: 1px dotted #67b2dd;
+    z-index: 1;
+}
+
+.tree .tree-selected {
+    background-color: rgba(98,168,209,0.1);
+    color: #6398b0;
+}
+
+.tree .tree-selected:hover {
+    background-color: rgba(98,168,209,0.1);
+}
+
+/*.tree .tree-item, .tree .tree-folder {
+        border: 1px solid #ddd;
+    }*/
+
+.tree .tree-folder .tree-folder-header {
+    border-radius: 0;
+}
+
+.tree .tree-item, .tree .tree-folder .tree-folder-header {
+    margin: 0;
+    padding: 10px 5px;
+    color: #000;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.tree_itools .d_a {
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.tree_itools.itools_hide {
+    display: none;
+}
+
+.tree-item:hover .tree_itools.itools_hide {
+    display: block;
+}
+
+.d_a.dropdown .dropdown-menu-right {
+    min-width: 100px;
+}
+
+.d_a.dropdown .dropdown-menu-right .dropdown-menu > li > a {
+    padding: 5px 10px;
+}
+
+.dropdown-icon li {
+    float: left;
+}
+
+.dropdown-icon li a {
+    padding: 6px 10px;
+    color: #888;
+}
+
+.layui-layer-tips i.layui-layer-TipsT {
+    border-left-style: solid;
+    border-left-color: #333;
+    border-right: none;
+}
+
+/*进度条*/
+.progressBar .tbox {
+    width: 100%;
+    height: 12px;
+    border-radius: 10px;
+    border: 1px solid #d6d6d6;
+    overflow: hidden;
+}
+
+.progressBar .tbox div {
+    width: 0px;
+    height: 12px;
+    text-align: center;
+    background: #a9d325;
+}
+
+/*加载*/
+#in_load {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 100px;
+    color: orange;
+}
+
+/*人才库首页样式*/
+.count_index_con p {
+    line-height: 24px;
+}
+
+.count_index_con p span {
+    color: orange;
+}
+
+.count_index_con a {
+    color: orange;
+}
+/*行业管理*/
+.sub_con .text {
+    font-weight: bold;
+    color: green;
+}
+
+.sub_con .tree-folder-content .text {
+    font-weight: normal;
+    color: forestgreen;
+}
+
+.sub_con .tree-folder-content .tree-folder-content .text {
+    font-weight: normal;
+    color: #333;
+}
+
+.sub_con .tree-folder-content .tree-folder-content .tree-folder-content .text {
+    font-weight: normal;
+    color: #999;
+}

@@ -1,0 +1,22 @@
+﻿.oa-admin { height: 261px; background-image: url('../images/gallery/bg-admin.jpg');background-size:100% 100%; margin:-15px -20px 0; }
+.oa-admin-avatar{ width:114px; height:114px; border:6px solid #fff; border-radius:50%; left:45px; bottom:-45px; }
+.oa-admin-avatar img{ width:100%; height:100%; border-radius:50%;}
+.oa-admin-avatar-file{ width:114px; height:114px; left:45px; bottom:-45px; z-index:10; opacity:0; cursor:pointer;  }
+.oa-admin-avatar-file.img-id {width:136px; height:87px; left:0; top:0; }
+.oa-admin-name{ padding-top:226px; padding-right:14px; }
+.oa-admin-name span{ line-height:24px; padding:0 13px; border-radius:5px; display:inline-block; float:right; color:#fff; margin-left:10px;}
+.form-control-ed-text.admin-top {
+    margin-top: 0;
+    background: var(--color-green)
+}
+.form-control-ed-text.admin-top:hover{ background:#01978a;}
+
+.card-bg{ width:136px; height:87px; background:#cdcdcd; border-radius:3px; color:#fff;}
+.card-bg span{ width:35px; height:35px; background:#fff; border-radius:6px; display:block; float:left; margin:26px 0 0 50px; text-align:center; line-height:35px; color:#cdcdcd; font-size:22px;}
+.card-bg img{ width:100%; height:100%; border-radius:6px;}
+.oa-admin-book{ right:-33px; z-index:1;}
+.icon-book-circle{ width:47px; height:68px; background:url('../images/icon/bg_bookcircle.png') no-repeat; background-size:100% 100%; display:inline-block; }
+
+.ibox{ background:#fff;}
+
+.oa-admin-depart{ bottom:-30px; right:20px; font-weight:bold;}

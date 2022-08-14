@@ -1,0 +1,21 @@
+.select2-container {
+    min-width: 50px;
+    z-index: 21000000;
+   
+}
+.modal-body .select2-container {
+    border: 1px solid #e5e6e7
+} 
+#orgForm .form-group {
+        margin: 0 15px 15px 0;
+    }
+
+.btn_add{
+    line-height:60px;
+    border:2px dashed #d5d5d5;
+    display:block;
+    text-align:center;
+    color:#999;
+    line-height:40px;
+    width:20%;
+}

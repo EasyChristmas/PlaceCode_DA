@@ -1,0 +1,142 @@
+﻿/*spring春节皮肤*/
+#navbar.spring{ background:url(../images/skin/spring/bg_spring_top.jpg) no-repeat center bottom #fe3f13; background-size:100%;}
+#navbar.spring .ace-nav>li{ border-left:1px solid red;}
+#navbar.spring .nav>li>a:focus,
+#navbar.spring .nav>li>a:hover{ background-color:#d43915;}
+#navbar.spring .icon_lantern{ width:50px; height:370px; display:inline-block; position:fixed; right:0; top:45px; background:url(../images/skin/spring/lantern.png) no-repeat center center; background-size:100% 100%; display:none;}
+#navbar.spring .icon_lantern{display:block;}
+
+/*spring2018春节皮肤*/
+#navbar.spring{ background:url(../images/skin/spring/bg_spring_top2019.jpg) no-repeat center bottom #fe3f13; background-size:100%;}
+    #navbar.spring .searchContentBox {
+        background:#fff; border:1px solid #fff;    }
+
+
+:root {
+    --color-red: #c32522 !important;
+    --color-red-blue: #7a0306;
+}
+/*2020皮肤*/
+.spring_skin .saas-top-right-one {
+    background: var(--color-red);
+    color:#fff;
+}
+
+.spring_skin .saas-nav-li-one:hover, .spring_skin .saas-nav-li-one.active {
+    background: var(--color-red);
+    color: #fff;
+}
+
+.spring_skin nav.page-tabs a.active {
+    background: var(--color-red);
+}
+
+.spring_skin nav.page-tabs a:after { 
+    background: var(--color-red); 
+}
+
+.spring_skin .ace-nav > li > a{
+    color:#fff;
+}
+
+.spring_skin .content_login {
+    /*background: var(--color-red-blue)!important;*/
+    background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20200101/SAAS/bg_login.png?xiaohu') no-repeat var(--color-red-blue) center center;
+    background-size: 100% 100%;
+}
+
+    .spring_skin .content_login .computer {
+        background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20200101/SAAS/computer.png?xiaohu') no-repeat ;
+        background-size:100% 100%;
+    }
+
+    .spring_skin .content_login .login_01 {
+        background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20200101/SAAS/01.png?xiaohu') no-repeat;
+        background-size: 100% 100%;
+        opacity:0.3;
+    }
+    .spring_skin .content_login .login_02 {
+        background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20200101/SAAS/02.png?xiaohu') no-repeat;
+        background-size: 100% 100%;
+    }
+    .spring_skin .content_login .login_03 {
+        background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20200101/SAAS/03.png?xiaohu') no-repeat;
+        background-size: 100% 100%;
+    }
+    .spring_skin .content_login .login_04 {
+        background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20200101/SAAS/04.png?xiaohu') no-repeat;
+        background-size: 100% 100%;
+    }
+    .spring_skin .content_login .login_05 {
+        background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20200101/SAAS/05.png?xiaohu') no-repeat;
+        background-size: 100% 100%;
+    }
+    .spring_skin .content_login .login_06 {
+        background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20200101/SAAS/06.png?xiaohu') no-repeat;
+        background-size: 100% 100%;
+        opacity: 0.3;
+    }
+
+    .spring_skin .content_login .border_dashed {
+        background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20200101/SAAS/border_dashed.png?xiaohu') no-repeat;
+        background-size: 100% 100%;
+    }
+
+
+    .spring_skin .content_login .text_happy_new_year {
+        background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20210101/SAAS/text_happy_new_year.png?xiaohu') no-repeat;
+        background-size: 100% 100%;
+        width: 720px;
+        height: 100px;
+        display: block;
+        left: 50%;
+        top: 10%;
+        margin-left: -500px;
+        z-index:1000;
+    }
+
+.spring_skin .loading-bg {
+    background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20200101/SAAS/bg_loading.png?xiaohu') no-repeat center center var(--color-red);
+    background-size: 828px 410px;
+}
+
+.spring_skin .lo-Logo {
+    background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20200101/SAAS/loading-bg01.png?xiaohu') no-repeat;
+    background-size: 100% 100%;
+}
+
+.spring_skin .btn-nav {
+    background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20200101/SAAS/arrow-left-bg.png?xiaohu') no-repeat;
+    background-size: 100% auto;
+}
+    .spring_skin .btn-nav.menu-close {
+        background: url('https://rescdn.xiaohu.in/Upload/skin/NewYear/20200101/SAAS/arrow-right-bg.png?xiaohu') no-repeat;
+        background-size: 100% auto;
+    }
+
+
+.spring_skin .icon-logo-mini.display-block {
+    background: url('http://cdn.xiaohu.in/image/logo/logo_white.png?xiaohu') no-repeat;
+    background-size: 100% auto;
+    width: 30px;
+}
+
+
+
+.spring_skin .spring_color{
+    color: #fff!important;
+}
+
+.spring_skin .spring_color .col_grey{
+    color: #fff!important;
+}
+
+ 
+
+
+
+
+
+
+
+

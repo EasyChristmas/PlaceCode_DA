@@ -1,0 +1,40 @@
+﻿  
+.allot_ul li{ width:20%;  padding:0 6px 14px; float:left;}
+.allot_ul_all{  border:1px solid #ddd;}
+.a_li_o{ padding:8px;}
+.a_li_o p{ line-height:22px;}
+.a_li_t{ padding:8px; background-color:#f3f3f3; border-top:1px solid #ddd; border-bottom:1px solid #ddd; position:relative; height:62px;}
+.a_li_t p{ line-height:22px;}
+.sub_show_reson{ display:none; background:#000; left:0; right:0; top:60px; color:#fff; padding:8px; border-radius:4px;}
+.sub_show_reson i{ position:absolute; font-size:22px; color:#000; left:50%; top:-14px; margin-left:-12px;}
+.a_li_t:hover .sub_show_reson{ display:block;}
+.a_li_s table tr th,.a_li_s table tr td{ text-align:center; border-bottom:1px solid #ddd; line-height:22px;}
+.a_li_s table tr th{ border-right:1px solid #ddd;}
+.a_li_f{ padding:8px;} 
+.select2-container{ min-width:50px; z-index: 21000000; } 
+
+/*未成立的会员*/
+.user_unsold li.start:before{ background-color:#fff;}
+.user_unsold li.start i{ border:#fff; background-color:#fff;}
+.user_unsold li.start span{font-size:20px; left:-10px;}
+.user_unsold li.end{ width:50px;}
+.user_unsold li.end:before{ background-color:#fff;}
+.user_unsold li:before {height:1px; width:100%; background-color:orange;content:""; display:block;}
+.user_unsold li i{ font-style:normal;}
+.user_unsold li i.circle{width: 13px; height: 13px; border: 1px solid orange; border-radius: 50%; display:inline-block; position: absolute; left: 0; top: -6px; background-color: orange;}
+.user_unsold li span{position: absolute;  left: 0; top: -26px;}
+.user_unsold_con li .con{width:80px; height:80px; margin:0 3px 3px 0;color:#fff; padding:4px; display:inline-block; border-radius:2px;}
+.user_unsold_con li.user_blue .con{ background-color:#00bcd4;}
+.user_unsold_con li.user_orange .con{ background-color:#ff9800;}
+.user_unsold_con li.user_green .con{ background-color:#4caf50;}
+.user_unsold_con li.user_grey .con{ background-color:#607d8b;}
+.user_unsold_con li.user_red .con{ background-color:#f44336;}
+.user_unsold_con li.user_grey_li .con{ background-color:#9e9e9e; }
+.user_unsold_con li .con{ position:relative;} 
+.user_unsold_con li .con .sub_show_reson{ display:none; background:#000; left:-60px; top:80px; color:#fff; padding:8px; border-radius:4px; z-index:1; width:200px;}
+.user_unsold_con li .con .sub_show_reson i{ position:absolute; font-size:22px; color:#000; left:50%; top:-14px; margin-left:-12px;}
+.user_unsold_con li .con:hover .sub_show_reson{ display:block;}
+
+
+
+

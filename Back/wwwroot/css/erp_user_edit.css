@@ -1,0 +1,285 @@
+﻿.user_le{ width:150px; margin:10px 35px 0;}
+.oa-admin{ width:84px; margin:0 auto;}
+.oa-admin .idimg{ border-radius:50%;}
+.oa-admin-avatar{ width:84px; height:84px; border-radius:50%; }
+.oa-admin-avatar img{ width:100%; height:100%; border-radius:50%;}
+.oa-admin-avatar-file{ width:84px; height:84px; left:0; top:0; z-index:10; opacity:0; cursor:pointer; } 
+.oa-admin-avatar-file.img-id {width:100%; height:100px; left:0; top:0; }
+.oa-admin-show-bg{  width:84px; height:84px; border-radius:50%; background-color:rgba(0,0,0,0.6); left:0; top:0; color:#fff; line-height:150px; text-align:center;}
+.user_le .pr:hover .oa-admin-show-bg{ display:block;}
+.btn_user_all{ margin-top:20px;}
+.btn_user_all p{ margin-bottom:10px;}
+.btn_user_all a.a_btn{ display:inline-block; width:100%; height:30px; line-height:30px; border-radius:3px; background-color:#c2c2c2; color:#fff; text-align:center; margin-bottom:11px;}
+.btn_user_all a.a_btn:hover,.btn_user_all a.a_btn.active{ background:#18a689;}
+.user_ri{ width:940px;}
+
+.user-title{ width:100%; height:12px; border-bottom:1px solid #e7eaec; text-align:center;}
+.user-title .pa{ font-size:12px; color:#9d9d9d; top:0; display:inline-block; width:162px; height:22px; background:#fff; top:0; left:50%; margin-left:-81px;}
+.card-bg{ width:100%; height:100px; background:#cdcdcd; border-radius:3px; color:#fff;}
+.card-bg span{ width:35px; height:35px; background:#fff; border-radius:6px; display:block; float:left; margin:34px 0 0 80px; text-align:center; line-height:35px; color:#cdcdcd; font-size:22px;}
+
+ 
+
+
+.nav-tabs>li>a{ color:#333;}
+.nav-tabs>li>a:hover,.nav-tabs>li>a:focus{ background-color:#0c987b;}
+.nav-tabs>li.ibox-tools{ float:right;}
+.nav-tabs>li.ibox-tools a{ padding:6px 7px; border-radius:0; color:#fff; background: #f9f9f9; border-color: #e8e8e8; color: #333;} 
+.nav-tabs>li.ibox-tools a i{ margin-right:0;}
+ 
+.user_more{line-height:24px; border-radius:20px; color:#fff; padding:0 20px; background-color:#f8ac59; display:inline-block;}     
+
+/*时间轴重写*/
+#vertical-timeline{ margin-top:10px; margin-bottom:0; max-width: 100%;}
+    #vertical-timeline.light-timeline:before{ left:0!important;}
+    .vertical-container {
+        width: 86%;
+        margin-right: 0;
+    }
+.vertical-left{ position:absolute; left:-140px; width:120px; top:4px;}
+.vertical-timeline-icon{width:70px; height:70px;left:-35px; box-shadow:0 0 3px #f5f5f5;}
+.vertical-timeline-content{ background-color:#f6f6f6; padding:15px 20px; margin-left:60px;}
+.vertical-timeline-content h2{ font-size:16px;}
+.vertical-timeline-content p{ margin:0; font-size:12px;}
+.vertical-timeline-content b{ font-weight:normal}
+.vertical-timeline-content::before{ border-right:7px solid #f6f6f6;}
+.vertical-timeline-block{ margin:10px 0;}
+.ibox-search-right .btn{ float:right;}
+ 
+/*强制打开跟进记录*/
+.show_middle_bg { z-index: 1000;}
+.record_fr{position:absolute;z-index:1001;width:410px; background:#fff; left:50%; margin-left:-220px; padding:20px 20px 20px 0; border-radius:4px; top:70px;}
+.record_fr h2{ font-size:16px; font-weight:bold; margin-bottom:10px; color:#676a6c;}
+.record_fr p{ font-size:13px; color:#9d9d9d; margin:10px 0;}
+
+
+/*.nav-content.nav_fix .ibox-search
+{ position:absolute; top:110px; left:15px; right:21px; background:#fff;}
+.nav-content.nav_fix .div-table-head
+{ position:absolute; top:143px; left:15px; right:15px; background:#fff; padding-top:10px;}
+.nav-content.nav_fix .div-table-content
+{ padding-top:75px;}*/
+
+/*专属变更css*/
+#vertical-timeline-zhuanshu .vertical-timeline-icon.timeline_time {
+    width: 150px;
+    height: auto;
+    /*background: #d6d6d6;*/
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 24px;
+    margin-left: -45px;
+    border:0px;
+}
+
+#vertical-timeline-zhuanshu .vertical-container {
+    width: 90%;
+    margin-right: 0;
+}
+
+
+#vertical-timeline-zhuanshu .vertical-timeline-content {
+    margin-left: 120px;
+}
+
+#vertical-timeline-zhuanshu #vertical-timeline.light-timeline:before {
+    background: #1ab394;
+}
+
+.center-orientation .vertical-timeline-content::before {
+    border-color: transparent transparent transparent #f6f6f6;
+    top: 10px;
+}
+.center-orientation .vertical-timeline-block:nth-child(2n) .vertical-timeline-content::before {
+    border-color: transparent #f6f6f6 transparent transparent;
+    top: 10px;
+}
+
+/*.center-orientation .vertical-timeline-block:nth-child(2n) .vertical-timeline-content {
+    float:none;
+    border-color: transparent transparent transparent #f6f6f6; 
+    top:10px;
+}
+
+.center-orientation .fright {
+    float: right !important;
+    border-color: transparent #f6f6f6 transparent transparent;
+}*/
+
+ 
+
+.eis-horizontal-steps .eis-form-steps {
+    overflow: hidden;
+    padding: 0;
+    font-size: 0;
+    position: relative
+}
+
+.eis-vertical-steps .eis-form-steps {
+    overflow: hidden;
+    padding: 0;
+    font-size: 0;
+    position: relative;
+    width: 150px;
+    float: left
+}
+
+.eis-horizontal-steps .eis-form-steps .eis-form-step {
+    display: inline-block;
+    vertical-align: middle;
+    width: 33.33333%;
+    text-align: center
+}
+
+.eis-vertical-steps .eis-form-steps .eis-form-step {
+    text-align: left;
+    height: 80px
+}
+
+.eis-horizontal-steps .eis-form-steps .eis-step-progress {
+    height: 2px;
+    background: #4995fa;
+    width: 0;
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    margin-top:-1px;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s
+}
+
+.eis-vertical-steps .eis-form-steps .eis-step-progress {
+    width: 2px;
+    background: #4995fa;
+    height: 0;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s
+}
+
+.eis-horizontal-steps .eis-form-steps .eis-step-head {
+    width: 100%;
+    position: relative
+}
+
+.eis-vertical-steps .eis-form-steps .eis-step-head {
+    float: left;
+    height: 100%;
+    position: relative
+}
+
+.eis-step-head .eis-step-icon {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    cursor: pointer
+}
+
+.is-finish .eis-step-icon {
+    border: 1px solid var(--color-blue-light);
+}
+
+.eis-step-head .eis-step-icon .step-icon-txt {
+    width: 20px;
+    height: 20px;
+    background: #ddd;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; 
+}
+
+.is-finish .eis-step-icon .step-icon-txt {
+    background: var(--color-blue-light);
+    border: 1px solid var(--color-blue-light);
+}
+
+.eis-horizontal-steps .eis-step-head .eis-step-line {
+    position: absolute;
+    background-color: #f1f1f1;
+    height: 2px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top:-1px;
+}
+
+.eis-vertical-steps .eis-step-head .eis-step-line {
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 2px;
+    height: 100%;
+    top: 15px;
+    left: 15px
+}
+
+.eis-horizontal-steps .eis-form-step .eis-step-main {
+    font-size: 14px;
+    padding: 6px 0 0;
+    color: #666;
+    text-align: left
+}
+
+.eis-vertical-steps .eis-form-step .eis-step-main {
+    overflow: hidden;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #666;
+    text-align: left
+}
+
+.is-finish .eis-step-main {
+    color: #3197fd
+}
+
+.eis-stepContents {
+    position: relative;
+    min-height: 200px;
+    overflow: hidden
+}
+
+    .eis-stepContents .eis-stepFooter {
+        position: absolute;
+        bottom: 10px;
+        right: 10px
+    }
+
+.eis-btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    cursor: pointer;
+    font-size: 12px;
+    min-width: 64px;
+    height: 25px;
+    line-height: 25px;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #3197fd;
+    color: #3197fd;
+    margin-right: 14px;
+    border-radius: 2px
+}
+
+ 

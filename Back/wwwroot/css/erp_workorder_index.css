@@ -1,0 +1,6 @@
+﻿/*-----------------工单------------------*/
+.work-order-title{ height:38px; line-height:38px; background:#f5f6fa; border-left:8px solid #6d7781; border-bottom:1px solid #dddddd;}
+.icon-border{ width:36px; height:36px; color:#0099cc; border:1px solid #0099cc; border-radius:3px; text-align:center; }
+.icon-border i{ display:block; margin-top:3px; font-size:22px;}
+.sub-css .db{ height:30px; line-height:30px; padding:0 4px;}
+.sub-css .db:hover,.sub-css .db.ho{ background:#eeeeee;}

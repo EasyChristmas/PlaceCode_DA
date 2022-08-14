@@ -1,0 +1,38 @@
+﻿/*合同列表*/
+.contract_list_ul{ margin:0 -7px;}
+    .contract_list_ul li {
+        width: 20%;
+    }
+    .contract_list_ul .li_box { 
+        border: 1px solid #ddd; 
+        box-shadow: 4px 4px #ddd;
+        box-sizing: border-box;
+        margin:10px;
+    }
+.contract_list_ul .li_box:hover,.contract_list_ul .li_box.active{border:1px solid #f8ac59;box-shadow: 4px 4px #f8ac59; }
+.contract_list_ul .li_box:hover .dailyRecord,.contract_list_ul .li_box.active .dailyRecord{ border-top:1px solid #f8ac59; border-bottom:1px solid #f8ac59;  background-color:#f8ac59; color:#fff;}
+.contract_list_ul .li_box h2{ margin:10px 6px;}
+.contract_list_ul .li_box .conTop{ margin:5px;}
+.contract_list_ul .li_box .text{ margin:5px;}
+.contract_list_ul .li_box .dailyRecord{ background-color:#f3f3f3;padding:6px; border-top:1px solid #ddd; border-bottom:1px solid #ddd; line-height:19px;} 
+.contract_list_ul .li_box .dailyRecord.rz{ height: 80px;}
+.contract_list_ul .li_box .contract_wuliu{ height:50px; margin: 6px; word-break: break-all}
+.contract_list_ul .li_box .contract_foot{ padding:0 6px; line-height:28px;}
+.contract_list_ul .li_box .contract_foot a{ color:#000;}
+.state .btn{ padding:6px 1px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
